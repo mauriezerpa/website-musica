@@ -1,11 +1,15 @@
 /*Layout*/
 
+html, body, .capa {
+    height: 100%;
+}
+
 body {
-    border: 1px solid red ;
     background: url('img/capa.png'), 
     url('img/ruido.png'),
     linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
+    font-family:  Helvetica, Arial, sans-serif ;
 }
 
 /* Barra de navegacao */
@@ -46,8 +50,22 @@ nav.navbar-transparente {
 
 /* principal */
 
+.capa {
+   display: table;
+   width: 100%;
+}
 
-
-
+.texto-capa {
+    text-align: center ;
+    display: table-cell;
+    vertical-align: middle ;
+}
 
 /*Tipografia*/
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    
+}
