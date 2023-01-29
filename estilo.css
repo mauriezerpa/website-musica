@@ -61,11 +61,38 @@ nav.navbar-transparente {
     vertical-align: middle ;
 }
 
+.btn-custom {
+    color: #ffff;
+    border-radius: 500px;
+    padding: 10px 35px ;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s ;
+}
+
+.btn-roxo {
+    background-color: #7c26f8;
+}
+
+.btn-roxo:hover {
+    background-color:#6207e3;
+    color: #ffff;
+}
+
+.btn-branco{ 
+  border: 2px solid #ffff;
+}
+
+.btn-branco:hover { 
+    background-color: #ffff;
+    color: black; 
+  }
+
 /*Tipografia*/
 
 h1 {
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -0.05em;
-    
+    margin-bottom: 50px ;
 }
